@@ -67,7 +67,8 @@
 
 
 ## Usage  
-  如果需要在```didFinishLaunchingWithOptions```或者是 rootiew 中启动,一定要使用```performSelector``方法延迟调用启动 debug 按钮
+  如果需要在```didFinishLaunchingWithOptions```或者是 rootiew 中启动,
+  一定要使用```performSelector``方法延迟调用启动 debug 按钮
    
    
    
@@ -111,7 +112,8 @@
     }
   
 ##  这一步很重要 
-   创建```MTADebugMethodBridge```的 ```category``` 实现你在 ```MTADebugModel``` 中的```selectorProperty``` 参数方法,需要加上 ```debugapi_```的签名前缀   
+   创建```MTADebugMethodBridge```的 ```category``` 实现你在 ```MTADebugModel``` 中的```selectorProperty``` 参数方法,
+   需要加上 ```debugapi_```的签名前缀   
    
     - (void)debugapi_changeOnlineServer:(MTADebugModel *)parameters{
     // TODO  Do Your Job
