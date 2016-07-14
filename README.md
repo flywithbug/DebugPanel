@@ -1,4 +1,5 @@
-##### 初衷 
+#DebugPanel
+## 初衷 
  
  移动端开发的时候总会遇到需要切换设备环境,或者切换服务器环境,或者查看一些测试 Log的时候. 这个时候免不了需要调取一下设备信息, 所以就想做一个固定在状态栏上的的
  Debug 功能控件,之前公司也有一个旧的类似控件,但是里面牵连业务非常多,而且扩展也不友好,所以我就想趁着有新项目需求的时候写一个顶部的控件壳子,
@@ -6,9 +7,9 @@
  暂时这个工具只有一个非常简单的工具壳,使用起来应该也不算麻烦.下面是使用方法
  
   效果如下图:
-  ![01](/sources/DebugPanel/01.gif)
+  ![01](https://github.com/brasbug/DebugPanel/blob/master/Source/01.gif)
  
-###### 使用方法
+## 使用方法
  
  **Podfile**  
    To integrate DebugPanel into your Xcode project using CocoaPods, specify it in your Podfile:
