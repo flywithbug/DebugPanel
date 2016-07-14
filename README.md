@@ -23,7 +23,7 @@
    
     pod install
     
-## 参数说明:
+## 参数说明及使用:
    ```MTADebugModel```
     
      /**
