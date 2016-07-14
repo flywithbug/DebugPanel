@@ -1,9 +1,9 @@
 
 Pod::Spec.new do |s|
-  s.name             = "DebugPannel"
+  s.name             = "DebugPanel"
 
   s.version          = "0.0.1"
-  s.summary          = "DebugPannel pod"
+  s.summary          = "DebugPanel pod"
 
   s.description      = <<-DESC
   DebugPannel 
