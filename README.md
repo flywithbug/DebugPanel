@@ -1,5 +1,5 @@
 #DebugPanel
-[blog 地址](http://www.flywithme.top/2016/07/14/debugpanel/)
+[blog 说明地址](http://www.flywithme.top/2016/07/14/debugpanel/)
 ## 初衷 
  
  移动端开发的时候总会遇到需要切换设备环境,或者切换服务器环境,或者查看一些测试 Log的时候. 这个时候免不了需要调取一下设备信息, 所以就想做一个固定在状态栏上的的
