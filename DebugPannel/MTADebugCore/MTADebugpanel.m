@@ -25,7 +25,7 @@ NSString *const errorMessage = @"数据模型不正确,请检查传入的数据�
     static dispatch_once_t onceFlag;
     dispatch_once(&onceFlag, ^{
         share = [MTADebugpanel new];
-        share.mutArrlist = [NSMutableArray arrayWithArray:[MTADebugModel formatDefaultData]];
+        share.mutArrlist = [NSMutableArray array];
     });
     return share;
 }
